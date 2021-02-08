@@ -41,11 +41,11 @@ operaciones-aritméticas-unidades-de-medida
 taller-de-aritmética-enfocado-a-problemas
 regla-de-tres-simple-compuesta-porcentajes-lectura-de-gráficos
 porcentajes
-relación-de-cantidades-inversamente-proporcionales
 ejemplo1-1
 ejemplo2-1
 ejemplo3-1
 ejemplo4-1
+relación-de-cantidades-inversamente-proporcionales
 algebra
 operaciones-algebraicas
 factorización
