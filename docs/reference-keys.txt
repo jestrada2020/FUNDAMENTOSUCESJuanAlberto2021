@@ -1,3 +1,4 @@
+fig:FigLogo1
 fig:Figprop1
 fig:Figprop2
 fig:Figprop3
