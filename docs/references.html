@@ -24,7 +24,7 @@
 <meta name="author" content="Juan Alberto Arias Quiceno" />
 
 
-<meta name="date" content="2021-01-20" />
+<meta name="date" content="2021-02-08" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="apple-mobile-web-app-capable" content="yes" />
@@ -51,6 +51,8 @@
 
 
 <script src="libs/accessible-code-block-0.0.1/empty-anchor.js"></script>
+<script src="libs/kePrint-0.0.1/kePrint.js"></script>
+<link href="libs/lightable-0.0.1/lightable.css" rel="stylesheet" />
 
 
 <style type="text/css">
@@ -137,9 +139,23 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <li class="chapter" data-level="1" data-path="index.html"><a href="index.html"><i class="fa fa-check"></i><b>1</b> Prerrequisitos</a></li>
 <li class="chapter" data-level="2" data-path="intro.html"><a href="intro.html"><i class="fa fa-check"></i><b>2</b> Introducción</a></li>
 <li class="chapter" data-level="3" data-path="arítmetica.html"><a href="arítmetica.html"><i class="fa fa-check"></i><b>3</b> Arítmetica</a><ul>
+<li class="chapter" data-level="3.0.1" data-path="arítmetica.html"><a href="arítmetica.html#razón."><i class="fa fa-check"></i><b>3.0.1</b> Razón.</a></li>
+<li class="chapter" data-level="3.0.2" data-path="arítmetica.html"><a href="arítmetica.html#ejemplo1"><i class="fa fa-check"></i><b>3.0.2</b> Ejemplo1</a></li>
+<li class="chapter" data-level="3.0.3" data-path="arítmetica.html"><a href="arítmetica.html#ejemplo2"><i class="fa fa-check"></i><b>3.0.3</b> Ejemplo2</a></li>
+<li class="chapter" data-level="3.0.4" data-path="arítmetica.html"><a href="arítmetica.html#ejemplo3"><i class="fa fa-check"></i><b>3.0.4</b> Ejemplo3</a></li>
+<li class="chapter" data-level="3.0.5" data-path="arítmetica.html"><a href="arítmetica.html#ejemplo4"><i class="fa fa-check"></i><b>3.0.5</b> Ejemplo4</a></li>
+<li class="chapter" data-level="3.0.6" data-path="arítmetica.html"><a href="arítmetica.html#ejemplo5"><i class="fa fa-check"></i><b>3.0.6</b> Ejemplo5</a></li>
+<li class="chapter" data-level="3.0.7" data-path="arítmetica.html"><a href="arítmetica.html#ejemplo6"><i class="fa fa-check"></i><b>3.0.7</b> Ejemplo6</a></li>
+<li class="chapter" data-level="3.0.8" data-path="arítmetica.html"><a href="arítmetica.html#ejemplo7"><i class="fa fa-check"></i><b>3.0.8</b> Ejemplo7</a></li>
 <li class="chapter" data-level="3.1" data-path="arítmetica.html"><a href="arítmetica.html#operaciones-aritméticas-unidades-de-medida"><i class="fa fa-check"></i><b>3.1</b> Operaciones aritméticas, unidades de medida</a></li>
 <li class="chapter" data-level="3.2" data-path="arítmetica.html"><a href="arítmetica.html#taller-de-aritmética-enfocado-a-problemas"><i class="fa fa-check"></i><b>3.2</b> Taller de Aritmética, enfocado a problemas</a></li>
-<li class="chapter" data-level="3.3" data-path="arítmetica.html"><a href="arítmetica.html#regla-de-tres-simple-compuesta-porcentajes-lectura-de-gráficos"><i class="fa fa-check"></i><b>3.3</b> Regla de tres simple, compuesta, porcentajes, lectura de gráficos</a></li>
+<li class="chapter" data-level="3.3" data-path="arítmetica.html"><a href="arítmetica.html#regla-de-tres-simple-compuesta-porcentajes-lectura-de-gráficos"><i class="fa fa-check"></i><b>3.3</b> Regla de tres simple, compuesta, porcentajes, lectura de gráficos</a><ul>
+<li class="chapter" data-level="3.3.1" data-path="arítmetica.html"><a href="arítmetica.html#porcentajes"><i class="fa fa-check"></i><b>3.3.1</b> Porcentajes</a></li>
+<li class="chapter" data-level="3.3.2" data-path="arítmetica.html"><a href="arítmetica.html#ejemplo1-1"><i class="fa fa-check"></i><b>3.3.2</b> Ejemplo1</a></li>
+<li class="chapter" data-level="3.3.3" data-path="arítmetica.html"><a href="arítmetica.html#ejemplo2-1"><i class="fa fa-check"></i><b>3.3.3</b> Ejemplo2</a></li>
+<li class="chapter" data-level="3.3.4" data-path="arítmetica.html"><a href="arítmetica.html#ejemplo3-1"><i class="fa fa-check"></i><b>3.3.4</b> Ejemplo3</a></li>
+<li class="chapter" data-level="3.3.5" data-path="arítmetica.html"><a href="arítmetica.html#ejemplo4-1"><i class="fa fa-check"></i><b>3.3.5</b> Ejemplo4</a></li>
+</ul></li>
 </ul></li>
 <li class="chapter" data-level="4" data-path="algebra.html"><a href="algebra.html"><i class="fa fa-check"></i><b>4</b> Algebra</a><ul>
 <li class="chapter" data-level="4.1" data-path="algebra.html"><a href="algebra.html#operaciones-algebraicas"><i class="fa fa-check"></i><b>4.1</b> Operaciones algebraicas</a></li>
@@ -250,6 +266,20 @@ gitbook.start({
 });
 </script>
 
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    var src = "true";
+    if (src === "" || src === "true") src = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-MML-AM_CHTML";
+    if (location.protocol !== "file:")
+      if (/^https?:/.test(src))
+        src = src.replace(/^https?:/, '');
+    script.src = src;
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
 </body>
 
 </html>
