@@ -1,5 +1,3 @@
-fig:nice-fig
-tab:nice-tab
 fig:Figprop1
 fig:Figprop2
 fig:Figprop3
